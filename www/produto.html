@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>Tela Produto</title>
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <link rel="stylesheet" href="css/produto.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="view view-main">
+            <div data-name="produto" class="page">
+            <div class="toolbar toolbar-bottom">
+                <div class="toolbar-inner display-flex">
+                  <div class = "flex-40 text-align-center">
+                    <span class = "riscado">R$1200</span>
+                </div>
+                  <div>
+                    <button class="add-cart flex-60">Adicionar ao Carrinho</button>
+                  </div>
+                </div>
+            </div>
+
+            <div data-name="produto" class="page color-theme-blue">
+                <div class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner justify-content-center">
+                        <img class = "estrela "src="img/imagem.png" alt="Farmácia Estrela">
+                        <a href="/carrinho/" class="tab-link link">
+                            <i class="mdi mdi-cart" data-count="0"></i>
+                            <span>Carrinho</span>
+                        </a>
+                    </div>
+                </div>
+
+           
+             
+
+                <div class="page-content">
+                  <div class = "prod-detail">
+                    <div class = "buttons-top">
+                        <a href="/index/">voltar</a>
+                       
+                    </div>
+                    <div class = "align-items-center justify-content-center">
+                        <img src="img/default.png" alt="">
+                    </div>
+                   
+                  </div>
+                  <div class="prod-content">
+                    <div class="block">
+                    <div class="line padding-top">
+                    <b class = "margin-left">Nome do Produto</b>
+                    </div>
+                    </div>
+                    <div class = "margin-top flex justify-content:center align-items-center">
+                       <button> <i class = "mdi mdi-star">4.8</i></button></div>
+
+                       <div class = "flex justify-content-center align-items-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem eos sunt deleniti aliquid vero. Nam consequatur est ipsam dignissimos enim fugiat. Eius deleniti magnam, ad excepturi sint ducimus animi!</p>
+
+
+                       </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/framework7/js/framework7.bundle.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+    <script src="lib/swiper-bundle.min.js"></script>
+</body>
+
+</html>

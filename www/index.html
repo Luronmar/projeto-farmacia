@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>Farmácia Estrela</title>
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="view view-main">
+            <div id = "menuPrincipal" class="toolbar toolbar-bottom">
+                <div class="toolbar-inner display-flex">
+                    <a href="/index/" class="tab-link link active">
+                        <i class="mdi mdi-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="/link2/" class="tab-link link">
+                        <i class="mdi mdi-magnify"></i>
+                        <span>Busca</span>
+                    </a>
+                    <a href="/link3/" class="tab-link link">
+                        <i class="mdi mdi-heart"></i>
+                        <span>Favoritos</span>
+                    </a>
+                    <a href="/link4/" class="tab-link link">
+                        <i class="mdi mdi-account"></i>
+                        <span>Conta</span>
+                    </a>
+                </div>
+            </div>
+
+            <div data-name="index" class="page color-theme-blue">
+                <div class="navbar">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner justify-content-center">
+                        <img class = "estrela "src="img/imagem.png" alt="Farmácia Estrela">
+                        <a href="/carrinho/" class="tab-link link">
+                            <i class="mdi mdi-cart" data-count="0"></i>
+                            <span>Carrinho</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="top-nav">
+                    <h1 class="title-logo">Farmácia Estrela</h1>
+                    <i class="ri-shopping-bag-line"></i>
+                </div>
+
+                <form action="">
+                    <input type="text" placeholder="O que você procura?">
+                </form>
+
+                <div class="page-content">
+                    <div class="block no-margin-top">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/propaganda.png" alt="Propaganda 1" class="img-fluid"></div>
+                                <div class="swiper-slide"><img src="img/propaganda2.png" alt="Propaganda 2" class="img-fluid"></div>
+                                <div class="swiper-slide"><img src="img/propaganda3.png" alt="Propaganda 3" class="img-fluid"></div>
+                                <div class="swiper-slide"><img src="img/propaganda4.png" alt="Propaganda 4" class="img-fluid"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="item-card">
+                        <a href="/produto/" class="item">
+                            <div class="img-container">
+                                <img class = "img-fluid "src="img/xbox.png" alt="Item remedio">
+                            </div>
+                            <div class="nome-rating">
+                                <span class="color-gray">Remédio</span>
+                                <span class="bold margin-right">
+                                    <i class="mdi mdi-star"></i>
+                                    4.8
+                                </span>
+                            </div>
+                            <div class="price">R$ 299,00</div>
+                            <br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br >
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="/produto/" class="item">
+                            <div class="img-container">
+                                <img class = "img-fluid "src="img/neosa.png" alt="Item Neosaldina">
+                            </div>
+                            <div class="nome-rating">
+                                <span class="color-gray">Neosaldina</span>
+                                <span class="bold margin-right">
+                                    <i class="mdi mdi-star"></i>
+                                    4.6
+                                </span>
+                            </div>
+                            <div class="price">R$ 29,99</div>
+                            <br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br >
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="/produto/" class="item">
+                            <div class="img-container">
+                                <img class = "img-fluid "src="img/dorflex.png" alt="Item dorflex">
+                            </div>
+                            <div class="nome-rating">
+                                <span class="color-gray">Dorflex</span>
+                                <span class="bold margin-right">
+                                    <i class="mdi mdi-star"></i>
+                                    4.8
+                                </span>
+                            </div>
+                            <div class="price">R$ 10,90</div>
+                            <br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br >
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="/produto/" class="item">
+                            <div class="img-container">
+                                <img class = "img-fluid"src="img/naldecon.png" alt="Item naldecon">
+                            </div>
+                            <div class="nome-rating">
+                                <span class="color-gray">Naldecon</span>
+                                <span class="bold margin-right">
+                                    <i class="mdi mdi-star"></i>
+                                    4.9
+                                </span>
+                            </div>
+                            <div class="price">R$ 2,99</div>
+                            <br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+    <script src="lib/swiper-bundle.min.js"></script>
+</body>
+
+</html>
